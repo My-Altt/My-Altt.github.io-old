@@ -5,7 +5,7 @@ function toggleEngine() {
   var logo = document.getElementById("engineLogo").src;
   localStorage.setItem('preferredEngine', logo);
 
-  if (logo.indexOf("google.svg") != -1) {
+  if (logo.indexOf("https://my-altt.github.io/google.svg") != -1) {
     document.getElementById("engineLogo").src = "https://my-altt.github.io/duck.svg";
     gSearch.style.display = "none";
     dSearch.style.display = "block";
