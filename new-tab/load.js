@@ -12,14 +12,14 @@ window.onload = function()
           localStorage.setItem('preferredEngine', currentLogo);
         } else
         {
-          if (storedLogo.indexOf("https://my-altt.github.io/duck.svg") != -1)
+          if (storedLogo.indexOf("https://my-altt.github.io/new-tab/duck.svg") != -1)
           {
-            document.getElementById("engineLogo").src = "https://my-altt.github.io/google.svg";
+            document.getElementById("engineLogo").src = "https://my-altt.github.io/new-tab/google.svg";
             gSearch.style.display = "block";
             dSearch.style.display = "none";
           } else
           {
-            document.getElementById("engineLogo").src = "https://my-altt.github.io/duck.svg";
+            document.getElementById("engineLogo").src = "https://my-altt.github.io/new-tab/duck.svg";
             dSearch.style.display = "block";
             gSearch.style.display = "none";
           }
