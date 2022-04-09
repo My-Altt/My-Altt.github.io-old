@@ -6,11 +6,11 @@ function toggleEngine() {
   localStorage.setItem('preferredEngine', logo);
 
   if (logo.indexOf("google.svg") != -1) {
-    document.getElementById("engineLogo").src = "file:///home/chronos/u-d03a57836de87b68f8474f4d04aef7972beef003/MyFiles/other/duck.svg";
+    document.getElementById("engineLogo").src = "https://my-altt.github.io/new-tab/duck.svg";
     gSearch.style.display = "none";
     dSearch.style.display = "block";
   } else {
-    document.getElementById("engineLogo").src = "file:///home/chronos/u-d03a57836de87b68f8474f4d04aef7972beef003/MyFiles/other/google.svg";
+    document.getElementById("engineLogo").src = "https://my-altt.github.io/new-tab/google.svg";
     dSearch.style.display = "none";
     gSearch.style.display = "block";
   }
