@@ -1,3 +1,4 @@
+//This is so that the more info button works
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
