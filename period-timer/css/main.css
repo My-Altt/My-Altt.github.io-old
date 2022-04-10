@@ -144,7 +144,9 @@ textarea {
      overflow: hidden;
      /*position: fixed;
      bottom: -20px;*/
-     transform: translate(0%, 340%);
+     /*transform: translate(0%, 120%);*/
+     position: absolute;
+     bottom: -12%;
    } /* BUG: Code breaks on on standart computer screans and fons */
 
    .extratext {
