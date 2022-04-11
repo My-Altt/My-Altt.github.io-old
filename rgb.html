@@ -85,6 +85,51 @@ a:link {
   text-decoration: none;
   color: #ffd5cd;
 }
+      
+/** Site header */
+.site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
+
+.site-title { font-size: 26px; font-weight: 300; line-height: 54px; letter-spacing: -1px; margin-bottom: 0; float: left; }
+
+.site-title, .site-title:visited { color: #424242; }
+
+.site-nav { float: right; line-height: 54px; }
+
+.site-nav .nav-trigger { display: none; }
+
+.site-nav .menu-icon { display: none; }
+
+.site-nav .page-link { color: #111; line-height: 1.5; }
+
+.site-nav .page-link:not(:last-child) { margin-right: 20px; }
+
+
+
+/** Site footer */
+.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
+
+.footer-heading { font-size: 18px; margin-bottom: 0px; }
+
+.contact-list, .social-media-list { list-style: none; margin-left: 0; margin-bottom: 0px;}
+
+.footer-col-wrapper { font-size: 15px; color: #828282; margin-left: -15px; }
+
+.footer-col { float: left; margin-bottom: 15px; padding-left: 15px;}
+
+.footer-col-1 { width: -webkit-calc(35% - (30px / 2)); width: calc(35% - (30px / 2)); }
+
+.footer-col-2 { width: -webkit-calc(20% - (30px / 2)); width: calc(20% - (30px / 2)); }
+
+.footer-col-3 { width: -webkit-calc(45% - (30px / 2)); width: calc(45% - (30px / 2)); }
+
+.footer-col-4 { float: left; margin-bottom: 15px; padding-left: 15px;margin-top:-150px}
+
+@media screen and (max-width: 800px) { .footer-col-1, .footer-col-2 { width: -webkit-calc(50% - (30px / 2)); width: calc(50% - (30px / 2)); } .footer-col-3 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+
+@media screen and (max-width: 600px) { .footer-col { float: none; width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+
+/** Clearfix */
+.footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }      
   </style>  
 <body>
  <div class="rgb"> 
@@ -95,5 +140,25 @@ a:link {
   <p><a href="https://my-altt.github.io/period-timer/index.html">Period Timer</a></p>
   <p><a href="https://my-altt.github.io/todo-list/index.html">Todo List</a></p>
   <p><a href="https://my-altt.github.io/">Home</a></p> 
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Alex&#39;s Homepage</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Report bugs here</li><li><a class="u-email" href="mailto:ancoremint2@protonmail.com">My alt mail</a></li></ul>
+      </div>
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li class="p-name">My Github</li><div class="footer-col-4"><li><a href="https://github.com/My-Altt"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">My-Altt</span></a></li>
+</div>
+</div>
+      <div class="footer-col footer-col-3">
+      </div>
+    </div>
+
+  </div>
+</footer>
   </body>
 </html>
