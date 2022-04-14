@@ -82,22 +82,22 @@ if (today_secs > 30000 & today_secs < 30120){
   if (today_secs > 49920 & today_secs < 53100){
     var meta = "Seventh Period"
     var countDownDate = new Date(today + " 02:45:00 PM").getTime();
-    var fmeta = "01:40:00 PM";
+    var fmeta = "02:45:00 PM";
   }
   if (today_secs > 53100 & today_secs < 53220){
     var meta = "Seventh Period to P.M. Homeroom"
     var countDownDate = new Date(today + " 02:47:00 PM").getTime();
-    var fmeta = "02:30:00 PM";
+    var fmeta = "02:47:00 PM";
   }
   if (today_secs > 53220 & today_secs < 54000){
     var meta = "P.M. Homeroom"
     var countDownDate = new Date(today + " 03:00:00 PM").getTime();
-    var fmeta = "02:30:00 PM";
+    var fmeta = "03:00:00 PM";
   }
   if (today_secs > 54000){
     var meta = "School Has Ended"
     var countDownDate = new Date(today + " 03:00:00 PM").getTime();
-    var fmeta = "";
+    var fmeta = "Imagine having school";
   }
 
   // Get today's date and time
